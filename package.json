@@ -1,0 +1,23 @@
+{
+  "name": "inventory-system",
+  "version": "1.0.0",
+  "description": "Lab 3 - Inventory and Data Management System (Node + Express + MongoDB)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "inventory",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Vats Aggarwal (2501060106)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
